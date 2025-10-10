@@ -1,9 +1,5 @@
-import Image from "next/image";
+import AboutUsPage from "./AboutUsPage";
 
 export default function About() {
-  return (
-    <div>
-      <h1>About</h1>
-    </div>
-  );
+  return <AboutUsPage />;
 }
