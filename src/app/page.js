@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Navbar from "../app/components/Navbar";
+import HeroImage from "../app/components/HeroImage";
 
 export default function Home() {
   return (
     <div>
-      <h1>Liyas Mineral Water</h1>
+      <Navbar />
+      
     </div>
   );
 }
